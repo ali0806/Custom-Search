@@ -1,7 +1,6 @@
 from opensearchpy import OpenSearch
 
 host = [{'host': 'localhost', 'port': 9200}]
-# auth = ('admin', 'ope@Abc123@ope')
 
 client = OpenSearch(
     hosts=host,
